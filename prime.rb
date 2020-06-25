@@ -4,3 +4,5 @@ def prime?(number)
     range = (i..number-1).to_a
         range.none? do |numba|
             number % numba == 0
+          end
+          
