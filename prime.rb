@@ -5,4 +5,7 @@ def prime?(number)
         range.none? do |numba|
             number % numba == 0
           end
-          
+        else
+          false
+        end
+      end
